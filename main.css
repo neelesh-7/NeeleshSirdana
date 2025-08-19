@@ -1,0 +1,13 @@
+html, body {
+        margin: 0; /* Remove default margins */
+        padding: 0; /* Remove default padding */
+        height: 100%; /* Ensure html and body take full height */
+        overflow: hidden; /* Prevent scrollbars on the main page */
+    }
+
+    iframe {
+        display: block; /* Iframes are inline by default, change to block */
+        width: 100vw; /* 100% of viewport width */
+        height: 100vh; /* 100% of viewport height */
+        border: none; /* Remove default iframe border */
+    }
