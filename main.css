@@ -1,19 +1,16 @@
-script {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: 9999; /* Ensure it's on top of other content */
-    border: none;
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden; /* Prevents scrollbars on the main page */
 }
 
-spline-viewer {
-    position: fixed;
+iframe {
+    position: fixed; /* Positions the iframe relative to the viewport */
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: 9999; /* Ensure it's on top of other content */
-    border: none;
+    width: 100%;
+    height: 100%;
+    border: none; /* Removes the default iframe border */
+    z-index: 9999; /* Ensures the iframe is on top of other content */
 }
