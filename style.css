@@ -4217,7 +4217,7 @@ blockquote {
 }
 
 .project-name {
-  color: var(--primary-color--white);
+  color: #bcd6e0;
   text-transform: uppercase;
   font-family: Aspekta, Arial, sans-serif;
   font-size: 2rem;
@@ -4233,7 +4233,7 @@ blockquote {
 }
 
 .project-info-text {
-  color: var(--primary-color--white);
+  color: #bcd6e0;
   white-space: nowrap;
   font-family: Instrument Serif, Georgia, sans-serif;
   font-size: 1.5rem;
