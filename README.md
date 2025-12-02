@@ -32,6 +32,4 @@ I built this portfolio to:
 
 - Provide a central place to showcase my work — including robotics, software engineering projects, and other relevant experience  
 - Help prospective employers or collaborators quickly evaluate my skills and past work  
-- Practice front‑end design and deployment workflow  
-# then run locally
-# e.g. npm start / open index.html
+- Practice front‑end design and deployment workflow
